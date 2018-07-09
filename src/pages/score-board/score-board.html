@@ -14,7 +14,10 @@
             <h3 style="color:white" >Home</h3>
         </div>
         <ion-card *ngFor="let dis of disArr">
-          <p>{{dis.home}}</p>
+          <div  class="pt">
+              <p>{{dis.home}}</p>
+          </div>
+        
         </ion-card>
         <ion-card class="box1">
               <p class="p">{{home}}</p>
@@ -26,7 +29,9 @@
         <h3 style="color:white">Away</h3>
         </div>
         <ion-card *ngFor="let dis of disArr">
-          <p>{{dis.away}}</p>
+          <div class="pt">
+              <p>{{dis.away}}</p>
+          </div> 
         </ion-card>
         <ion-card class="box2">
           <p class="p">{{away}}</p>

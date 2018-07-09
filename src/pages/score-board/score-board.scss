@@ -34,8 +34,14 @@ page-score-board {
     margin-top:5%;
     opacity: 0.8;
 }
+.active, .box1:hover{
+    background-color:rgba(86, 104, 204, 0.9);
+}
 
-.box1{
+.active, .box2:hover{
+    background-color:rgba(86, 104, 204, 0.9);
+}
+ .box1{
     height:40%;
     width:90%;
     background-color:rgba(18, 29, 90, 0.9);
@@ -67,7 +73,7 @@ page-score-board {
     background-color: rgba(18, 29, 90, 0.9);
 }
 .p{
-    margin-top:30%;
+    margin-top:20%;
     font-size:xx-large;
     color: white;
 }
@@ -79,5 +85,13 @@ page-score-board {
 }
 .btn4{
     width:60%;
+}
+
+.pt{
+    background-color: rgba(18, 29, 90, 0.9);
+    box-shadow: 4px 4px 8px black;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color:white;
 }
 }
