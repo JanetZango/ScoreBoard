@@ -1,0 +1,60 @@
+<!--
+  Generated template for the ScoreBoardPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content class="back">
+  <div>
+    <div class="container">
+      <div class="home" (click)="check('A')">
+        <div class="t">
+            <h3 style="color:white" >Home</h3>
+        </div>
+        <ion-card *ngFor="let dis of disArr">
+          <p>{{dis.home}}</p>
+        </ion-card>
+        <ion-card class="box1">
+              <p class="p">{{home}}</p>
+        </ion-card>
+      </div>
+
+      <div class="away" (click)="checks('B')">
+          <div class="t">
+        <h3 style="color:white">Away</h3>
+        </div>
+        <ion-card *ngFor="let dis of disArr">
+          <p>{{dis.away}}</p>
+        </ion-card>
+        <ion-card class="box2">
+          <p class="p">{{away}}</p>
+        </ion-card>
+      </div>
+    </div>
+
+  </div>
+
+<div id="menu" align="center">
+  
+      <button ion-button  class="btn1" (click)="try()">Try 5points</button>
+      <button ion-button  class="btn2"  (click)="try1()">
+        <ion-icon name="refresh"></ion-icon>
+      </button>
+      <button ion-button  class="btn1"  (click)="penalty()">Penalty 3points</button>
+      <button ion-button class="btn2" (click)=penalty1()>
+        <ion-icon name="refresh"></ion-icon>
+      </button>
+      <button ion-button  class="btn1"  (click)="conversion()">Conversion 2points</button>
+      <button ion-button  class="btn2"  (click)="conversion1()">
+        <ion-icon name="refresh"></ion-icon>
+      </button>
+      <button ion-button  block class="btn4" (click)="reset()">Reset</button>
+    
+
+
+</div>
+
+
+</ion-content>

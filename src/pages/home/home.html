@@ -1,0 +1,22 @@
+
+
+<ion-content padding>
+  <div id="menu" align="center">
+    <img src="../../assets/rugby.jpg">
+  </div>
+  <ion-item>
+    <ion-label stacked>Home Team</ion-label>
+    <ion-input type="text" #home  ></ion-input>
+  </ion-item>
+  <h1 id="menu" align="center" >VS</h1>
+  <ion-item>
+    <ion-label stacked>Away Team</ion-label>
+    <ion-input type="text" #away></ion-input>
+  </ion-item>
+</ion-content>
+
+<ion-footer>
+  <div id="menu" align="center">
+      <ion-title><button ion-button clear color="dark" (click)="add(home.value,away.value)">Start New Match</button></ion-title>
+  </div>
+</ion-footer>

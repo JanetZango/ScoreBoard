@@ -1,0 +1,83 @@
+page-score-board {
+.back{
+    background:url('../../assets/j1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin:0 auto;
+    
+}
+
+.home{
+    background-color:rgba(15, 22, 63, 0.9);
+    height:280px;
+    width:50%;
+    
+    
+    
+
+   
+}
+.away{
+    background-color:rgba(15, 22, 63, 0.9);
+    height:280px;
+    width:50%;
+    
+    
+}
+
+.container{
+    display: flex;
+
+}
+.button{
+    margin-top:5%;
+    opacity: 0.8;
+}
+
+.box1{
+    height:40%;
+    width:90%;
+    background-color:rgba(18, 29, 90, 0.9);
+    text-align: center;
+    color:white;
+    font-size: x-large;
+    box-shadow: 4px 4px 8px black;
+
+   
+}
+.box2{
+    height:40%;
+    width:90%;
+    background-color:rgba(25, 43, 148, 0.9);
+    text-align: center;
+    color:white;
+    font-size:x-large;
+    box-shadow: 4px 4px 8px black;
+}
+
+.btn1{
+    width:50%;
+}
+.btn2{
+    width:15%;
+}
+
+.btn3{
+    background-color: rgba(18, 29, 90, 0.9);
+}
+.p{
+    margin-top:30%;
+    font-size:xx-large;
+    color: white;
+}
+.button{
+    background-color: rgba(18, 29, 90, 0.9);
+}
+.t{
+    text-align: center;
+}
+.btn4{
+    width:60%;
+}
+}
